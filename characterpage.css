@@ -3,7 +3,9 @@ body, html {
     margin: 0; 
     text-align: center; 
 }
-
+body {
+    padding-bottom: 100px;
+}
 .bg {
     background-image: url("https://pbs.twimg.com/media/DtH6j2gXgAACVU1.jpg:large"); 
   background-position: center;
@@ -61,7 +63,7 @@ h3 {
 }
 #characterimg {
     align-content: center; 
-    left: 60%;  
+    left: 760px;  
     right: 200px;
     height: 300px; 
     width: 300px;
