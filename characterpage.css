@@ -9,11 +9,11 @@ body {
 .bg {
     background-image: url("https://pbs.twimg.com/media/DtH6j2gXgAACVU1.jpg:large"); 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover; 
     background-attachment: fixed;
-    height: cover;
-
+    height: 1000px;
+    
 }
 h1 {
     color: #103; 
@@ -50,13 +50,12 @@ background-repeat: no-repeat;
 }
 
 p {  
-display: run-in; 
 word-wrap: break-word; 
 margin-top: 50px; 
 margin-bottom: 0px; 
 width: 25%; 
 z-index: 3;
-margin-left: 350px;
+margin-left: 348px;
 float: left;
 } 
 h3 { 
@@ -74,7 +73,7 @@ h3 {
 } 
 #smashball { 
     align-content: center; 
-    right: 360px;
+    right: 27%;
     height: 300px; 
     width: 300px; 
     opacity: .7;
@@ -128,4 +127,12 @@ z-index: 3;
 margin-left: 340px;
 float: left;
 }
+.gr {
+    background-image: url("https://pbs.twimg.com/media/DtH6j2gXgAACVU1.jpg:large"); 
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 4100px;
 }
+
